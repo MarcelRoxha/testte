@@ -18,7 +18,7 @@ import com.example.demospringfirestore.model.Persona;
 import com.example.demospringfirestore.service.api.PersonaServiceAPI;
 
 @RestController
-@RequestMapping(value = "/persona/api/v1/")
+	@RequestMapping(value = "/persona/api/v1/")
 @CrossOrigin("*")
 public class PersonaRestController {
 
